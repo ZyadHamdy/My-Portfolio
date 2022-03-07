@@ -474,16 +474,16 @@ ul li p {
 }
 @media (max-width: 576px) {
     .row .info .social ul a {
-        margin-left: 13px;}
+        margin-left: 8px;}
 
         .popup-video{
-            top: 66%;
+            top: 68%;
             left: 26%;
-            width: 65%;
+            width: 75%;
         }
         .carousel .describe-me .btn {
           
-            width: 33%;
+            width: 40%;
         }
 }
 /* ===================x===================End Slide=================x============== */
