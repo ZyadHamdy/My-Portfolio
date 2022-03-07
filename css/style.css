@@ -417,7 +417,7 @@ ul li p {
     top: 0;
     display: flex;
     right: 0;
-    padding-left: 43px;
+    /* padding-left: 43px; */
     padding-top: 15px;
     margin: 0 !important;
   }
@@ -472,6 +472,20 @@ ul li p {
     padding-top: 4%;
   }
 }
+@media (max-width: 576px) {
+    .row .info .social ul a {
+        margin-left: 20px;}
+
+        .popup-video{
+            top: 66%;
+            left: 26%;
+            width: 60%;
+        }
+        .carousel .describe-me .btn {
+          
+            width: 33%;
+        }
+}
 /* ===================x===================End Slide=================x============== */
 
 /* ===================x==================Start About me================x============== */
@@ -519,7 +533,7 @@ section {
     /* margin: 140px; */
     margin-top: 120px;
     width: 80%;
-    margin-left: 64px;
+    margin-left: 45px;
     height: 400px;
 }
 .container .right img {
@@ -631,6 +645,13 @@ section {
     margin-left: 40%;
   }
 }
+@media (max-width: 576px) {
+
+    .container-skills .circle {
+        margin-left: 31%;
+      }
+}
+
 
 .container-skills .circle::before {
   content: "";
@@ -757,6 +778,11 @@ section {
     transform: translateX(-50%);
   }
 }
+@media (max-width: 576px) {
+    .container-services .content-services .content {
+        width: 100%;
+        margin-top: 36px;
+}}
 /* Start Gallery */
 
 .gallery {
@@ -1083,7 +1109,7 @@ display: none;
         font-size: 23px;
     }
     .contacts .content {
-      top: 21%;
+      top: 28%;
     }
     .contacts .description {
         width: 75%;}
