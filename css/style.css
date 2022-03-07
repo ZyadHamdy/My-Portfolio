@@ -477,13 +477,16 @@ ul li p {
         margin-left: 8px;}
 
         .popup-video{
-            top: 68%;
-            left: 26%;
-            width: 75%;
+            top: 66%;
+            left: 50%;
+            width: 50%;
+        }
+        .popup-video a {
+            padding: 0;
         }
         .carousel .describe-me .btn {
           
-            width: 40%;
+            width: 50%;
         }
 }
 /* ===================x===================End Slide=================x============== */
