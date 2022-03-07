@@ -474,12 +474,12 @@ ul li p {
 }
 @media (max-width: 576px) {
     .row .info .social ul a {
-        margin-left: 20px;}
+        margin-left: 13px;}
 
         .popup-video{
             top: 66%;
             left: 26%;
-            width: 60%;
+            width: 65%;
         }
         .carousel .describe-me .btn {
           
